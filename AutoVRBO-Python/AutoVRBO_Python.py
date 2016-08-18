@@ -23,8 +23,6 @@ password.send_keys(pw)
 submit = browser.find_element_by_id("form-submit")
 submit.click()
 
-# Python 2.7
-# pip install -U selenium
 # Refresh calendar.
 update = browser.find_element_by_id("republishCalendarButton")
 update.click()
